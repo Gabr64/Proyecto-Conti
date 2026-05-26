@@ -1,0 +1,73 @@
+---
+title: "CA 0305 Contingencias de Vida"
+bibliography: biblio.bib
+link-citations: true
+format:
+  pdf:
+    engine: xelatex
+    documentclass: article
+    fontsize: 12pt
+header-includes:
+  - \usepackage{setspace}
+  - \usepackage{titling}
+  - \usepackage{indentfirst}
+  - \setlength{\parindent}{15pt}
+  - \usepackage{graphicx}
+  - \usepackage{actuarialsymbol}
+---
+
+\begin{center}
+{\LARGE \bfseries Proyecto Grupal \par}
+\vspace{0.5cm}
+
+
+{\large
+Profesora:\\
+Eny Vargas \\
+Integrantes: \\
+Gabriel Robles C36611\\
+César Salazar C27103 \\
+Óscar Espinoza \\
+Gerardo Andrés 
+\par}
+
+\vspace{0.5cm}
+
+\textit{
+Ciencias Actuariales, Escuela de Matemática, Universidad de Costa Rica.\\
+San José, Costa Rica. Junio 2026
+}
+\end{center}
+\hrule
+\vspace{0.5cm}
+
+
+
+
+$$
+% Ejemplo de actsymbol
+% Van de abajo para arriba, si ocupa algo como 
+% doble fuerza delta dejar [][2]{A}
+% primeros "[]" siglas q van antes de la anualidad/seguro 
+%      |               segundas opciones: Despues de la %      |                anualidad / seguro
+%      |                Van de arriba para abajo
+%      |                |
+%      |                |
+%      V                V
+$$
+\begin{align}
+\actsymb[t][2]{\bar{A}}{2}[x] \\ \\
+\actsymb[t]{p}{x} \\
+\actsymb{q}{x} \\
+\actsymb{A}{x:\nthtop{1}{\angln}} \\
+\actsymb{\ddot{a}}{x:{\angln}}
+\end{align}
+
+@actsymbol
+
+# Introducción
+
+# Referencias
+
+::: {#refs} 
+:::
